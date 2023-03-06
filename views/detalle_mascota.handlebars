@@ -1,9 +1,0 @@
-
-
-<h1>Detalle de la mascota</h1>
-<p>Nombre: {{mascota.nombre}}</p>
-<p>Propietario: {{mascota.propietario.nombre}} ({{mascota.propietario.run}})</p>
-<form action="/mascotas/{{mascota.nombre}}" method="post">
-  <input type="hidden" name="_method" value="DELETE">
-  <input type="submit" value="Eliminar mascota">
-</form>
